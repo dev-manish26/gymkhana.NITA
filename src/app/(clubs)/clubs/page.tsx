@@ -2,13 +2,14 @@
 
 import React, { useState } from "react";
 import { data } from "src/assets/data.js";
+import type { StaticImageData } from "next/image";
 import Image from "next/image";
 
 interface Club {
   club: string;
   category: string;
   url: string;
-  image: string;
+  image: string | StaticImageData;
 }
 
 const Clubs: React.FC = () => {
