@@ -15,7 +15,7 @@ const Hero = async () => {
   const clubs = await getActiveClubs();
   return (
     <section
-      className='relative flex h-[90dvh] w-full items-center justify-center lg:h-screen'
+      className='relative flex h-[60dvh] w-full items-center justify-center lg:h-screen'
       id='hero'
     >
       <Image
