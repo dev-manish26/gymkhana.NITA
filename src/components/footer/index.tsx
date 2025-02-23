@@ -84,18 +84,10 @@ const Footer = () => {
 
         <div className='mt-16 border-t border-gray-100 pt-8'>
           <p className='text-center text-xs/relaxed text-gray-500'>
-            © Gymkhana Technical {new Date().getFullYear()}. All rights
+            © Gymkhana NITA {new Date().getFullYear()}. All rights
             reserved.
             <br />
-            Created with <LuBinary className='inline' /> by{' '}
-            <Link
-              href='https://envoy1084.xyz'
-              target='_blank'
-              rel='noreferrer'
-              className='text-black transition hover:text-black/80'
-            >
-              Envoy_
-            </Link>{' '}
+            Created with <LuBinary className='inline' /> by BTC.
           </p>
         </div>
       </div>

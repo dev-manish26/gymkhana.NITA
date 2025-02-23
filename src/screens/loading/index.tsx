@@ -15,7 +15,7 @@ const LoadingScreen = () => {
           className='h-[72px] w-[72px] sm:h-[96px] sm:w-[96px]'
         />
         <div className='max-w-xs text-center text-lg font-medium leading-[1.1] text-neutral-800 sm:max-w-md sm:text-2xl md:max-w-lg md:text-[2rem]'>
-          Board of Technical Community, Gymkhana
+          Gymkhana, National Institute of Technology Agartala.
         </div>
       </div>
     </div>
