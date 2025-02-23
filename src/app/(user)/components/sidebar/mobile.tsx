@@ -16,6 +16,7 @@ import { Button } from '~/components/ui/button';
 
 // Assets
 import { BTCLogo } from '~/assets';
+import GymkhanaLogo from '~/assets/Gymkhana_logo.png';
 import { HiMenuAlt2 } from 'react-icons/hi';
 import { HelpCard } from './index';
 import { ActionBar } from '../nav';
@@ -47,8 +48,8 @@ const MobileNavbar = ({ items }: Props) => {
                 <SheetTitle className='flex flex-row items-center justify-between gap-2'>
                   <div className='flex flex-row gap-2'>
                     <Image
-                      src={BTCLogo.src}
-                      alt='BTC Logo'
+                      src={GymkhanaLogo.src}
+                      alt='GymkhanaLogo'
                       width={30}
                       height={30}
                       className='rounded-full'
@@ -84,8 +85,8 @@ const MobileNavbar = ({ items }: Props) => {
           </Sheet>
           <Link href='/'>
             <Image
-              src={BTCLogo.src}
-              alt='BTC Logo'
+              src={GymkhanaLogo.src}
+              alt='GymkhanaLogo'
               width={36}
               height={36}
               className='rounded-full'
