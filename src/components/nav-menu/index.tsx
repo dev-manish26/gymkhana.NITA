@@ -21,8 +21,13 @@ const NavMenu = () => {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-      <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
+        <NavigationMenuItem>
+            <Button asChild variant="ghost">
+              <Link href="/gymkhanaPage">About</Link>
+            </Button>
+          </NavigationMenuItem>
+        <NavigationMenuItem>
+            <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Home
             </NavigationMenuLink>
@@ -51,14 +56,6 @@ const NavMenu = () => {
             </NavigationMenuLink>
           </Link>
 
-        </NavigationMenuItem>
-
-        
-
-        <NavigationMenuItem>
-          <Button asChild variant="ghost">
-            <Link href="/gymkhanaPage">About</Link>
-          </Button>
         </NavigationMenuItem> 
       </NavigationMenuList>
     </NavigationMenu>
