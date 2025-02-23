@@ -14,12 +14,12 @@ import { env } from '~/env';
 export const metadata: Metadata = {
   metadataBase: new URL(env.NEXT_PUBLIC_OG_BASE_URL),
   title: {
-    template: '%s | Gymkhana Technical',
-    default: 'Gymkhana Technical',
+    template: '%s | Gymkhana NITA',
+    default: 'Gymkhana NITA',
   },
   description:
     'Experience BTC Gymkhana Technical: Register for events, explore clubs, and dive into college life! Join the excitement today!',
-  applicationName: 'Gymkhana Technical',
+  applicationName: 'Gymkhana NITA',
   keywords: [
     'NIT Agartala',
     'College Events',
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   creator: 'Vedant Chainani',
   publisher: 'Gymkhana Technical',
   icons: [
-    { rel: 'icon', url: '/favicon.ico' },
+    { rel: 'icon', url: '/icon.png' },
     { rel: 'apple-touch-icon', url: '/apple-touch-icon.png' },
   ],
   manifest: '/manifest.json',
