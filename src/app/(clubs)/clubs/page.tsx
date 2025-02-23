@@ -21,14 +21,14 @@ const Clubs: React.FC = () => {
     : data.filter((item: Club) => item.category === category);
 
   return (
-    <div className="max-w-6xl mx-auto p-6">
+    <div className="max-w-6xl mx-auto p-4">
       {/* Filter Buttons */}
-      <div className="flex justify-center space-x-4 mb-6">
+      <div className="flex space-x-4 mb-6 overflow-x-auto whitespace-nowrap">
         {["All", "Communities", "Technical", "Cultural", "Others"].map((cat) => (
           <button
             key={cat}
             onClick={() => setCategory(cat)}
-            className={`px-4 py-2 rounded-lg text-sm font-semibold ${
+            className={`px-4 py-2 rounded-lg text-sm font-semibold flex-shrink-0 ${
               category === cat ? "bg-blue-600 text-white" : "bg-gray-200"
             }`}
           >
