@@ -1,15 +1,15 @@
 import Image from 'next/image';
 import React from 'react';
 
-import { BTCLogo } from '~/assets';
+import GymkhanaLogo from '~/assets/Gymkhana_logo.png';
 
 const LoadingScreen = () => {
   return (
     <div className='flex h-screen items-center justify-center'>
       <div className='flex max-w-lg flex-col items-center gap-6'>
         <Image
-          src={BTCLogo}
-          alt='BTC Logo'
+          src={Gymkhanalogo}
+          alt='Gymkhana Logo'
           width={100}
           height={100}
           className='h-[72px] w-[72px] sm:h-[96px] sm:w-[96px]'
