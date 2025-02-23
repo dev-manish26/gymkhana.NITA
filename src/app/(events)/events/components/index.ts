@@ -1,3 +1,5 @@
 import EventDetails from './event-details';
+import { FormsTable } from './forms-table';
+import { columns } from './forms-table/Column';
 
-export { EventDetails };
+export { FormsTable, columns ,EventDetails };

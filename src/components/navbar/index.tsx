@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import { BTCLogo } from '~/assets';
+import GymkhanaLogo from '~/assets/Gymkhana_logo.png';
 import NavMenu from '../nav-menu';
 
 import { ActionBar } from '~/app/(user)/components/nav';
@@ -13,8 +14,8 @@ const Navbar = () => {
     <nav className='flex w-full flex-row justify-between gap-3 border-b px-4 py-4'>
       <Link href='/' className='flex items-center gap-3'>
         <Image
-          src={BTCLogo.src}
-          alt='BTC Logo'
+          src={GymkhanaLogo} 
+          alt='Gymkhana Logo'
           width={46}
           height={46}
           className='h-10 w-10 rounded-full sm:h-12 sm:w-12'
