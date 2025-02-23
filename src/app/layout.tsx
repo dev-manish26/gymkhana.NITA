@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   creator: 'Vedant Chainani',
   publisher: 'Gymkhana Technical',
   icons: [
-    { rel: 'icon', url: '~/assets/Gymkhana_logo.png' },
+    { rel: 'icon', url: '/favicon.ico' },
     { rel: 'apple-touch-icon', url: '/apple-touch-icon.png' },
   ],
   manifest: '/manifest.json',
