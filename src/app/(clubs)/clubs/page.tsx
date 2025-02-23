@@ -16,14 +16,15 @@ const Clubs: React.FC = () => {
   const [category, setCategory] = useState<string>("All");
 
   // Filtering logic
-  const filteredData: Club[] =
-    category === "All" ? data : data.filter((item: Club) => item.category === category);
+  const filteredData: Club[] = category === "All"
+    ? data.filter((item: Club) => item.category !== "Communities")
+    : data.filter((item: Club) => item.category === category);
 
   return (
     <div className="max-w-6xl mx-auto p-6">
       {/* Filter Buttons */}
       <div className="flex justify-center space-x-4 mb-6">
-        {["All", "Technical", "Cultural", "Others"].map((cat) => (
+        {["All", "Communities", "Technical", "Cultural", "Others"].map((cat) => (
           <button
             key={cat}
             onClick={() => setCategory(cat)}

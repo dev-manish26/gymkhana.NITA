@@ -9,14 +9,11 @@ import Phewsion_logo from './Phewsion_logo.png';
 import ThinkIndia_logo from './ThinkIndia_logo.png';
 import DSAI_logo from './DSAI_logo.png';
 import Anarc_logo from './Anarc_logo.png';
+import Aaveg_logo from './Aaveg_logo.png';
+import BCC_logo from './BCC_logo.png';
+import sarc_logo from './sarc_logo.png';
 
 export const data = [
-    {
-      "club": "BTC Gymkhana",
-      "image": btc_logo,
-      "url" : "https://www.instagram.com/btc.gymkhana/",
-      "category": "Technical",
-    },
     {
       "club": "B-Club",
       "image": BClub_logo,
@@ -48,6 +45,12 @@ export const data = [
       "category": "Cultural",
     },
     {
+      "club": "Board of technical community",
+      "image": btc_logo,
+      "url" : "https://www.instagram.com/btc.gymkhana/",
+      "category": "Communities",
+    },
+    {
       "club": "MUNSOC",
       "image": MUNSOC_logo,
       "url" : "https://www.instagram.com/btc.gymkhana/",
@@ -57,13 +60,13 @@ export const data = [
       "club": "Phewsion",
       "image": Phewsion_logo,
       "url" : "https://www.instagram.com/btc.gymkhana/",
-      "category": "Others",
+      "category": "Technical",
     },
     {
       "club": "Think India",
       "image": ThinkIndia_logo,
       "url" : "https://www.instagram.com/btc.gymkhana/",
-      "category": "Others",
+      "category": "Technical",
     },
     {
       "club": "DSAI",
@@ -76,5 +79,24 @@ export const data = [
       "image": Anarc_logo,
       "url" : "https://www.instagram.com/btc.gymkhana/",
       "category": "Technical",
-    }
+    },
+    {
+      "club": "Aaveg",
+      "image": Aaveg_logo,
+      "url" : "https://www.instagram.com/btc.gymkhana/",
+      "category": "Technical",
+    },
+    {
+      "club": "Sarc",
+      "image": sarc_logo,
+      "url" : "https://www.instagram.com/btc.gymkhana/",
+      "category": "Communities",
+    },
+    {
+      "club": "BCC",
+      "image": BCC_logo,
+      "url" : "https://www.instagram.com/btc.gymkhana/",
+      "category": "Communities",
+    },
+    
 ];
