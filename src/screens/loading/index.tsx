@@ -8,7 +8,7 @@ const LoadingScreen = () => {
     <div className='flex h-screen items-center justify-center'>
       <div className='flex max-w-lg flex-col items-center gap-6'>
         <Image
-          src={Gymkhanalogo}
+          src={GymkhanaLogo}
           alt='Gymkhana Logo'
           width={100}
           height={100}
