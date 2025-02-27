@@ -78,11 +78,11 @@ const Hero = async () => {
                   className='mt-4 flex w-full justify-center'
                 >
                   <Image
-                  src={gymKhanaLogo}
-                  height={120}
-                  width={120}
-                  className='h-28 w-28 rounded-full object-cover'
-                  alt='Gymkhana Logo'
+                    src={gymKhanaLogo}
+                    height={120}
+                    width={120}
+                    className='h-28 w-28 rounded-full object-cover'
+                    alt='Gymkhana Logo'
                   />
                 </CardItem>
                 <div className='mt-20 flex items-center justify-between'>
@@ -94,7 +94,7 @@ const Hero = async () => {
                   <CardItem translateZ={20} as='div'>
                     <Button asChild>
                       <Link
-                        href='https://www.instagram.com/btcgymkhana/'
+                        href='https://nita.ac.in/userpanel/StudentNotification.aspx'
                         target='_blank'
                         rel='noopener noreferrer'
                       >
