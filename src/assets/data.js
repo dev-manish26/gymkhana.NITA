@@ -12,6 +12,9 @@ import Anarc_logo from './Anarc_logo.png';
 import Aaveg_logo from './Aaveg_logo.png';
 import BCC_logo from './BCC_logo.png';
 import sarc_logo from './sarc_logo.png';
+import kabaddi_logo from './kabaddi_logo.png';
+import Xanthronz from './Xanthronz.jpg';
+import Badminton_logo from './Badminton_logo.jpg';
 
 export const data = [
     {
@@ -57,8 +60,20 @@ export const data = [
       "category": "Technical",
     },
     {
+      "club": "Xanthronz",
+      "image": Xanthronz,
+      "url" : "https://www.instagram.com/btc.gymkhana/",
+      "category": "Technical",
+    },
+    {
       "club": "Phewsion",
       "image": Phewsion_logo,
+      "url" : "https://www.instagram.com/btc.gymkhana/",
+      "category": "Sports",
+    },
+    {
+      "club": "Badminton Club",
+      "image": Badminton_logo,
       "url" : "https://www.instagram.com/btc.gymkhana/",
       "category": "Sports",
     },
@@ -73,6 +88,12 @@ export const data = [
       "image": DSAI_logo,
       "url" : "https://www.instagram.com/btc.gymkhana/",
       "category": "Technical",
+    },
+    {
+      "club": "kabaddi",
+      "image": kabaddi_logo,
+      "url" : "https://www.instagram.com/btc.gymkhana/",
+      "category": "Sports",
     },
     {
       "club": "Anarc",

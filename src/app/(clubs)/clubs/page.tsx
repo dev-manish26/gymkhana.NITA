@@ -24,7 +24,7 @@ const Clubs: React.FC = () => {
     <div className='mx-auto max-w-6xl p-4'>
       {/* Filter Buttons */}
       <div className='mb-6 flex space-x-4 overflow-x-auto whitespace-nowrap pb-2'>
-        {['Communities', 'Technical', 'Cultural', 'Sports' , 'Others'].map((cat) => (
+        {['Communities', 'Technical', 'Cultural', 'Sports', 'Others'].map((cat) => (
           <button
             key={cat}
             onClick={() => setCategory(cat)}
@@ -38,22 +38,22 @@ const Clubs: React.FC = () => {
       </div>
 
       {/* Grid Display */}
-      <div className='grid grid-cols-1 gap-6 md:grid-cols-3 '>
+      <div className='grid grid-cols-1 gap-6 md:grid-cols-3'>
         {filteredData.map((item: Club, index: number) => (
           <a
             key={index}
             href={item.url}
             target='_blank'
             rel='noopener noreferrer'
-            className='flex aspect-[4/3] flex-col items-center justify-center rounded-lg border border-gray-100 bg-white p-8 shadow-sm'
+            className='flex aspect-[4/3] flex-col items-center justify-center rounded-lg border border-gray-300 bg-white p-6 shadow-sm'
           >
-            <div className='h-32 w-32'>
+            <div className='flex h-32 w-40 items-center justify-center'>
               <Image
                 src={item.image}
                 alt={item.club}
-                width={128}
-                height={128}
-                className='h-full w-full rounded-lg object-contain'
+                width={120}
+                height={120}
+                className=''
               />
             </div>
             <div className='mt-4 text-center'>
