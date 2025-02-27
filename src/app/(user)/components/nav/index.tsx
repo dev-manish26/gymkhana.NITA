@@ -30,7 +30,7 @@ export const ActionBar = async () => {
     <div className='flex flex-row items-center gap-2'>
       {!user && (
         <Button variant='primary' asChild>
-          <Link href='https://www.instagram.com/btcgymkhana/' target='_blank' rel='noopener noreferrer'>Connect</Link>
+          <Link href='https://www.instagram.com/gymkhana_nita?igsh=aG16M3hxejN2NGt5' target='_blank' rel='noopener noreferrer'>Connect</Link>
         </Button>
             )}
       <DropdownMenu>
