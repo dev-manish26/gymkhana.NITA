@@ -15,6 +15,10 @@ import sarc_logo from './sarc_logo.png';
 import kabaddi_logo from './kabaddi_logo.png';
 import Xanthronz from './Xanthronz.jpg';
 import Badminton_logo from './Badminton_logo.jpg';
+import we_can_new_logo from './we_can_new_logo.png';
+import ncc_logo from './ncc.png';
+import Hoopers from './Hoopers.png';
+import nlc from './NLC.png';
 
 export const data = [
     {
@@ -69,7 +73,7 @@ export const data = [
       "club": "Phewsion",
       "image": Phewsion_logo,
       "url" : "https://www.instagram.com/btc.gymkhana/",
-      "category": "Sports",
+      "category": "Technical",
     },
     {
       "club": "Badminton Club",
@@ -92,6 +96,18 @@ export const data = [
     {
       "club": "kabaddi",
       "image": kabaddi_logo,
+      "url" : "https://www.instagram.com/btc.gymkhana/",
+      "category": "Sports",
+    },
+    {
+      "club": "NLC",
+      "image": nlc,
+      "url" : "https://www.instagram.com/btc.gymkhana/",
+      "category": "Cultural",
+    },
+    {
+      "club": "Nita Hoopers",
+      "image": Hoopers,
       "url" : "https://www.instagram.com/btc.gymkhana/",
       "category": "Sports",
     },
@@ -119,5 +135,16 @@ export const data = [
       "url" : "https://www.instagram.com/btc.gymkhana/",
       "category": "Communities",
     },
-    
+    {
+      "club": "We Can",
+      "image": we_can_new_logo,
+      "url" : "https://www.instagram.com/btc.gymkhana/",
+      "category": "Others",
+    },
+    {
+      "club": "Ncc",
+      "image": ncc_logo,
+      "url" : "https://www.instagram.com/btc.gymkhana/",
+      "category": "Others",
+    }
 ];
