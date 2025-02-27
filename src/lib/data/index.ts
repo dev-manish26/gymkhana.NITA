@@ -130,8 +130,8 @@ export const homePageItems: SideNavItem[] = [
     href: '/forms',
   },
   {
-    name: 'Dashboard',
+    name: 'About Us',
     Icon: RxDashboard,
-    href: '/dashboard',
+    href: '/gymkhanaPage',
   },
 ];

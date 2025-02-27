@@ -55,7 +55,7 @@ const MobileNavbar = ({ items }: Props) => {
                       className='rounded-full'
                     />
                     <span className='xxs:block hidden text-lg font-semibold text-neutral-700'>
-                      Gymkhana Technical
+                      Gymkhana NITA
                     </span>
                   </div>
                   <SheetClose className='rounded-sm opacity-70 ring-offset-white transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-transparent focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-neutral-100 dark:ring-offset-neutral-950 dark:focus:ring-neutral-300 dark:data-[state=open]:bg-neutral-800'>
@@ -67,7 +67,7 @@ const MobileNavbar = ({ items }: Props) => {
               <div className='py-4'>
                 <Separator />
               </div>
-              <div className='flex h-full flex-col justify-between'>
+             <div className='flex h-full flex-col justify-between'>
                 <div className='py-0'>
                   {items.map((item) => (
                     <DashboardItem
