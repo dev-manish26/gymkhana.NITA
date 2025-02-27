@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { BTCLogo } from '~/assets';
+
 import GymkhanaLogo from '~/assets/Gymkhana_logo.png';
 import NavMenu from '../nav-menu';
 
