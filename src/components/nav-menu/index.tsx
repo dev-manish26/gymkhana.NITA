@@ -21,11 +21,7 @@ const NavMenu = () => {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-        <NavigationMenuItem>
-            <Button asChild variant="ghost">
-              <Link href="/gymkhanaPage">About</Link>
-            </Button>
-          </NavigationMenuItem>
+
         <NavigationMenuItem>
             <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -33,6 +29,12 @@ const NavMenu = () => {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+
+        <NavigationMenuItem>
+            <Button asChild variant="ghost">
+              <Link href="/gymkhanaPage">About</Link>
+            </Button>
+          </NavigationMenuItem>
         
 
         <NavigationMenuItem>

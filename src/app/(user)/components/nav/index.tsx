@@ -30,9 +30,9 @@ export const ActionBar = async () => {
     <div className='flex flex-row items-center gap-2'>
       {!user && (
         <Button variant='primary' asChild>
-          <Link href='/sign-in'>Get Started</Link>
+          <Link href='https://nita.ac.in/userpanel/StudentNotification.aspx' target='_blank' rel='noopener noreferrer'>Connect Us</Link>
         </Button>
-      )}
+            )}
       <DropdownMenu>
         <DropdownMenuTrigger>
           {user && (
