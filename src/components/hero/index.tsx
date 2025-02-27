@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { BlueArrowBG } from '~/assets';
 import { Button } from '../ui/button';
 import Link from 'next/link';
+import gymKhanaLogo from '~/assets/Gymkhana_logo.png';
 
 import { CardBody, CardContainer, CardItem } from './Card';
 import { InfiniteMovingCards } from './InfiniteCards';
@@ -15,7 +16,7 @@ const Hero = async () => {
   const clubs = await getActiveClubs();
   return (
     <section
-       className='relative flex h-[55dvh] w-full items-center justify-center lg:h-[75dvh]'
+      className='relative flex h-[55dvh] w-full items-center justify-center lg:h-[75dvh]'
       id='hero'
     >
       <Image
@@ -29,7 +30,7 @@ const Hero = async () => {
         <div className='flex h-fit w-full flex-col lg:flex-row'>
           <div className='flex h-full w-full basis-1/2 flex-col justify-center gap-8 px-3 py-16'>
             <h1 className='text-[2.5rem] font-bold leading-[1] lg:text-7xl'>
-              Your gateway to campus events and clubs.
+              Welcome to Gymkhana
             </h1>
             <h2 className='text-xl text-neutral-600'>
               Stay Informed about Upcoming Events and Club Activities on Campus.
@@ -62,23 +63,26 @@ const Hero = async () => {
                   translateZ='50'
                   className='text-xl font-bold text-neutral-900 dark:text-white'
                 >
-                  Welcome to Gymkhana
+                  Your gateway to campus events and clubs.
                 </CardItem>
                 <CardItem
                   as='p'
                   translateZ='60'
                   className='mt-2 max-w-sm text-sm text-neutral-600 dark:text-neutral-300'
                 >
-                  The Gymkhana is the student body of the
-                  NIT Agartala, for students, by students.
+                  The Gymkhana is the student body of the NIT Agartala, for
+                  students, by students.
                 </CardItem>
-                <CardItem translateZ='100' className='mt-4 w-full'>
+                <CardItem
+                  translateZ='100'
+                  className='mt-4 flex w-full justify-center'
+                >
                   <Image
-                    src='/api/og'
-                    height='1000'
-                    width='1000'
-                    className='h-60 w-full rounded-xl object-cover'
-                    alt='thumbnail'
+                  src={gymKhanaLogo}
+                  height={120}
+                  width={120}
+                  className='h-28 w-28 rounded-full object-cover'
+                  alt='Gymkhana Logo'
                   />
                 </CardItem>
                 <div className='mt-20 flex items-center justify-between'>
@@ -89,7 +93,13 @@ const Hero = async () => {
                   </CardItem>
                   <CardItem translateZ={20} as='div'>
                     <Button asChild>
-                      <Link href='/sign-in'>Get Started</Link>
+                      <Link
+                        href='https://www.instagram.com/btcgymkhana/'
+                        target='_blank'
+                        rel='noopener noreferrer'
+                      >
+                        Notice
+                      </Link>
                     </Button>
                   </CardItem>
                 </div>

@@ -60,13 +60,13 @@ export const data = [
       "club": "Phewsion",
       "image": Phewsion_logo,
       "url" : "https://www.instagram.com/btc.gymkhana/",
-      "category": "Technical",
+      "category": "Sports",
     },
     {
       "club": "Think India",
       "image": ThinkIndia_logo,
       "url" : "https://www.instagram.com/btc.gymkhana/",
-      "category": "Technical",
+      "category": "Cultural",
     },
     {
       "club": "DSAI",
@@ -84,7 +84,7 @@ export const data = [
       "club": "Aaveg",
       "image": Aaveg_logo,
       "url" : "https://www.instagram.com/btc.gymkhana/",
-      "category": "Technical",
+      "category": "Cultural",
     },
     {
       "club": "Sarc",

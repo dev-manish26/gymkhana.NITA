@@ -108,7 +108,7 @@ const socialItems: SocialLinkProps[] = [
     label: 'Facebook',
   },
   {
-    href: 'https://www.instagram.com',
+    href: 'https://www.instagram.com/btcgymkhana/',
     Icon: FaInstagram,
     label: 'Instagram',
   },
@@ -118,12 +118,7 @@ const socialItems: SocialLinkProps[] = [
     label: 'Twitter',
   },
   {
-    href: 'https://www.github.com',
-    Icon: FaGithub,
-    label: 'GitHub',
-  },
-  {
-    href: 'https://www.linkedin.com',
+    href: 'https://www.linkedin.com/company/board-of-technical-community-btc/posts/?feedView=all',
     Icon: FaLinkedin,
     label: 'LinkedIn',
   },
