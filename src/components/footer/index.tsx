@@ -108,7 +108,7 @@ const socialItems: SocialLinkProps[] = [
     label: 'Facebook',
   },
   {
-    href: 'https://www.instagram.com/btcgymkhana/',
+    href:'https://www.instagram.com/gymkhana_nita?igsh=aG16M3hxejN2NGt5',
     Icon: FaInstagram,
     label: 'Instagram',
   },
