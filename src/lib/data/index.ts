@@ -115,6 +115,11 @@ export const commandItems = [
 
 export const homePageItems: SideNavItem[] = [
   {
+    name: 'About Us',
+    Icon: RxDashboard,
+    href: '/gymkhanaPage',
+  },
+  {
     name: 'All Events',
     Icon: HiOutlineTicket,
     href: '/events',
@@ -128,10 +133,5 @@ export const homePageItems: SideNavItem[] = [
     name: 'All Forms',
     Icon: PiScrollBold,
     href: '/forms',
-  },
-  {
-    name: 'About Us',
-    Icon: RxDashboard,
-    href: '/gymkhanaPage',
   },
 ];
