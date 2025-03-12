@@ -85,7 +85,7 @@ export const clubDashboardSidebarNavItems: SideNavItem[] = [
   {
     name: 'Forms',
     Icon: PiScrollBold,
-    href: '/club-dashboard/forms',
+    href: 'https://docs.google.com/forms/d/1Gxv--RFYgLxoyLa3T0iSQeKIO9IiuJPTaaILDfhwLEM/edit', // Updated link
     regexp: new RegExp(`^\/club-dashboard\/forms(?:\/.*)?$`),
   },
 ];
@@ -132,6 +132,6 @@ export const homePageItems: SideNavItem[] = [
   {
     name: 'All Forms',
     Icon: PiScrollBold,
-    href: '/forms',
+    href: 'https://docs.google.com/forms/d/1Gxv--RFYgLxoyLa3T0iSQeKIO9IiuJPTaaILDfhwLEM/edit',
   },
 ];
