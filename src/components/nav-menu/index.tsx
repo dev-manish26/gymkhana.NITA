@@ -23,7 +23,7 @@ const NavMenu = () => {
       <NavigationMenuList>
 
         <NavigationMenuItem>
-            <Link href="/" legacyBehavior passHref>
+          <Link href="/" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Home
             </NavigationMenuLink>
@@ -31,11 +31,10 @@ const NavMenu = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-            <Button asChild variant="ghost">
-              <Link href="/gymkhanaPage">About</Link>
-            </Button>
-          </NavigationMenuItem>
-        
+          <Button asChild variant="ghost">
+            <Link href="/gymkhanaPage">About</Link>
+          </Button>
+        </NavigationMenuItem>
 
         <NavigationMenuItem>
           <Link href="/clubs" legacyBehavior passHref>
@@ -44,6 +43,7 @@ const NavMenu = () => {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+
         <NavigationMenuItem>
           <Link href="/events" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -51,14 +51,19 @@ const NavMenu = () => {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/forms" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Forms
-            </NavigationMenuLink>
-          </Link>
 
+        {/* Forms Section Updated */}
+        <NavigationMenuItem>
+          <a 
+            href="https://docs.google.com/forms/d/1Gxv--RFYgLxoyLa3T0iSQeKIO9IiuJPTaaILDfhwLEM/edit"
+            target="_blank" 
+            rel="noopener noreferrer"
+            className={navigationMenuTriggerStyle()}
+          >
+            Forms
+          </a>
         </NavigationMenuItem> 
+
       </NavigationMenuList>
     </NavigationMenu>
   );
