@@ -20,7 +20,7 @@ export const HelpCard = () => {
           <span className='font-semibold'>Need Help?</span>
           <Link
             className='flex flex-row items-center gap-1 text-xs text-neutral-500'
-            href='mailto:vedantchainani1084@gmail.com'
+            href='https://docs.google.com/forms/d/1Gxv--RFYgLxoyLa3T0iSQeKIO9IiuJPTaaILDfhwLEM/edit'
             target='_blank'
           >
             Contact us
