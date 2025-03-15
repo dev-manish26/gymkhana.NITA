@@ -18,7 +18,7 @@ const executives = [
     photo: '/executives/15.png',
   },
   {
-    name: 'Shreyash Shetty',
+    name: 'Shreyas Shetty',
     post: 'Advisory Board',
     photo: '/executives/16.png',
   },
@@ -48,7 +48,7 @@ const executives = [
     photo: '/executives/5.png',
   },
   {
-    name: 'Diya Choudhary',
+    name: 'Diya Chaudhary',
     post: 'Asst. General Secretary Technical',
     photo: '/executives/6.png',
   },
@@ -73,7 +73,7 @@ const executives = [
     photo: '/executives/12.png',
   },
   {
-    name: 'Md. Anans Khan',
+    name: 'Md. Anash Khan',
     post: 'Asst. General Secretary Sports',
     photo: '/executives/18.png',
   },
