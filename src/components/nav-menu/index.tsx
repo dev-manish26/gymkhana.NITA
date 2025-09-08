@@ -21,9 +21,8 @@ const NavMenu = () => {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-
         <NavigationMenuItem>
-          <Link href="/" legacyBehavior passHref>
+          <Link href='/' legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Home
             </NavigationMenuLink>
@@ -31,13 +30,13 @@ const NavMenu = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Button asChild variant="ghost">
-            <Link href="/gymkhanaPage">About</Link>
+          <Button asChild variant='ghost'>
+            <Link href='/gymkhanaPage'>About</Link>
           </Button>
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="/clubs" legacyBehavior passHref>
+          <Link href='/clubs' legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Clubs
             </NavigationMenuLink>
@@ -45,7 +44,7 @@ const NavMenu = () => {
         </NavigationMenuItem>
 
         <NavigationMenuItem>
-          <Link href="/events" legacyBehavior passHref>
+          <Link href='/events' legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Events
             </NavigationMenuLink>
@@ -54,16 +53,12 @@ const NavMenu = () => {
 
         {/* Forms Section Updated */}
         <NavigationMenuItem>
-          <a 
-            href="https://docs.google.com/forms/d/1Gxv--RFYgLxoyLa3T0iSQeKIO9IiuJPTaaILDfhwLEM/edit"
-            target="_blank" 
-            rel="noopener noreferrer"
-            className={navigationMenuTriggerStyle()}
-          >
-            Forms
-          </a>
-        </NavigationMenuItem> 
-
+          <Link href='/feedback' legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Feedback
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
   );
@@ -79,8 +74,16 @@ const ListItem = ({ title, href }: Props) => {
   return (
     <NavigationMenuLink asChild>
       <Button variant='ghost' asChild className='w-full'>
-        <Link href={href} className='flex flex-row items-center justify-start gap-2'>
-          <Image src={getSocialImage(href)} alt={title} width={24} height={24} />
+        <Link
+          href={href}
+          className='flex flex-row items-center justify-start gap-2'
+        >
+          <Image
+            src={getSocialImage(href)}
+            alt={title}
+            width={24}
+            height={24}
+          />
           <div>{title}</div>
         </Link>
       </Button>

@@ -130,11 +130,13 @@ export default function AboutGymkhana() {
       </div>
 
       {/* Second Row: Executives Section */}
-      <div className='w-full bg-white py-10 shadow-md'>
+      <div className='w-full  py-10 shadow-md'>
         <section className='container mx-auto px-6'>
-          <h2 className='mb-6 text-center text-4xl font-bold text-primary shadow-md'>
-            Executives
-          </h2>
+          <div className=' mb-4'>
+            <h2 className='text-center text-4xl font-bold text-primary'>
+              Executives
+            </h2>
+          </div>
           <div className='grid grid-cols-2 gap-6 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8'>
             {executives.map((exec, index) => (
               <div

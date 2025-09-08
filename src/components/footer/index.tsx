@@ -6,7 +6,6 @@ import {
   FaFacebook,
   FaInstagram,
   FaXTwitter,
-  FaGithub,
   FaLinkedin,
 } from 'react-icons/fa6';
 
@@ -28,7 +27,7 @@ const Footer = () => {
               </label>
 
               <input
-                className='w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium'
+                className='w-full rounded-full border border-gray-300 bg-gray-100 p-4 pe-32 text-sm font-medium focus:border-blue-400 focus:shadow-primary/80 focus:outline-none focus:ring-1'
                 id='email'
                 type='email'
                 placeholder='john@doe.com'
@@ -84,8 +83,7 @@ const Footer = () => {
 
         <div className='mt-16 border-t border-gray-100 pt-8'>
           <p className='text-center text-xs/relaxed text-gray-500'>
-            © Gymkhana NITA {new Date().getFullYear()}. All rights
-            reserved.
+            © Gymkhana NITA {new Date().getFullYear()}. All rights reserved.
             <br />
             Created with <LuBinary className='inline' /> by BTC.
           </p>
@@ -108,7 +106,7 @@ const socialItems: SocialLinkProps[] = [
     label: 'Facebook',
   },
   {
-    href:'https://www.instagram.com/gymkhana_nita?igsh=aG16M3hxejN2NGt5',
+    href: 'https://www.instagram.com/gymkhana_nita?igsh=aG16M3hxejN2NGt5',
     Icon: FaInstagram,
     label: 'Instagram',
   },
@@ -170,9 +168,17 @@ const navigationItems: ItemProps[] = [
     href: '/clubs',
     label: 'Clubs',
   },
+  // {
+  //   href: '/forms',
+  //   label: 'Forms',
+  // },
+  // {
+  //   href: '/notice',
+  //   label: 'Notice',
+  // },
   {
-    href: '/forms',
-    label: 'Forms',
+    href: '/feedback',
+    label: 'Feedback',
   },
 ];
 

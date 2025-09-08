@@ -54,7 +54,7 @@ const MobileNavbar = ({ items }: Props) => {
                       height={30}
                       className='rounded-full'
                     />
-                    <span className='xxs:block hidden text-lg font-semibold text-neutral-700'>
+                    <span className='hidden text-lg font-semibold text-neutral-700 xxs:block'>
                       Gymkhana NITA
                     </span>
                   </div>
@@ -67,7 +67,7 @@ const MobileNavbar = ({ items }: Props) => {
               <div className='py-4'>
                 <Separator />
               </div>
-             <div className='flex h-full flex-col justify-between'>
+              <div className='flex h-full flex-col justify-between'>
                 <div className='py-0'>
                   {items.map((item) => (
                     <DashboardItem

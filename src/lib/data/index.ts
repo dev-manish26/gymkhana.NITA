@@ -3,6 +3,8 @@ import {
   HiOutlineUserCircle,
   HiOutlineBell,
   HiOutlineChartSquareBar,
+  HiOutlineHome,
+  HiMenuAlt2,
 } from 'react-icons/hi';
 import { RxDashboard } from 'react-icons/rx';
 
@@ -82,11 +84,21 @@ export const clubDashboardSidebarNavItems: SideNavItem[] = [
     href: '/club-dashboard/events',
     regexp: new RegExp(`^\/club-dashboard\/events(?:\/.*)?$`),
   },
+  // {
+  //   name: 'Forms',
+  //   Icon: PiScrollBold,
+  //   href: 'https://docs.google.com/forms/d/1Gxv--RFYgLxoyLa3T0iSQeKIO9IiuJPTaaILDfhwLEM/edit', // Updated link
+  //   regexp: new RegExp(`^\/club-dashboard\/forms(?:\/.*)?$`),
+  // },
+  // {
+  //   name: 'Notice',
+  //   Icon: PiScrollBold,
+  //   href: '/notice'
+  // },
   {
-    name: 'Forms',
+    name: 'Feedback',
     Icon: PiScrollBold,
-    href: 'https://docs.google.com/forms/d/1Gxv--RFYgLxoyLa3T0iSQeKIO9IiuJPTaaILDfhwLEM/edit', // Updated link
-    regexp: new RegExp(`^\/club-dashboard\/forms(?:\/.*)?$`),
+    href: '/feedback'
   },
 ];
 
@@ -115,8 +127,13 @@ export const commandItems = [
 
 export const homePageItems: SideNavItem[] = [
   {
+    name: 'Home',
+    Icon: HiOutlineHome,
+    href: '/',
+  },
+  {
     name: 'About Us',
-    Icon: RxDashboard,
+    Icon: HiMenuAlt2,
     href: '/gymkhanaPage',
   },
   {
@@ -129,9 +146,19 @@ export const homePageItems: SideNavItem[] = [
     Icon: PiUsersThreeBold,
     href: '/clubs',
   },
+  // {
+  //   name: 'All ',
+  //   Icon: PiScrollBold,
+  //   href: 'https://docs.google.com/forms/d/1Gxv--RFYgLxoyLa3T0iSQeKIO9IiuJPTaaILDfhwLEM/edit',
+  // },
+  // {
+  //   name: 'notice',
+  //   Icon: PiScrollBold,
+  //   href: '/notice'
+  // },
   {
-    name: 'All Forms',
+    name: 'Feedback',
     Icon: PiScrollBold,
-    href: 'https://docs.google.com/forms/d/1Gxv--RFYgLxoyLa3T0iSQeKIO9IiuJPTaaILDfhwLEM/edit',
+    href: '/feedback'
   },
 ];

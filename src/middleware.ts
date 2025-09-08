@@ -46,6 +46,8 @@ export default authMiddleware({
     /^\/clubs.*$/,
     /^\/events.*$/,
     /^\/forms.*$/,
+    /^\/notice.*$/,
+    /^\/feedback.*$/,
   ],
   ignoredRoutes: ['/api/og'],
 });

@@ -4,6 +4,7 @@ import { FeaturedEvents, Footer, Hero, Navbar } from '~/components';
 import MobileNavbar from './(user)/components/sidebar/mobile';
 
 import { homePageItems as items } from '~/lib/data';
+import NoticeBoard from '~/components/notice/page';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Navbar />
       </div>
       <Hero />
+      <NoticeBoard />
       <FeaturedEvents />
       <Footer />
     </div>
