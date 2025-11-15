@@ -3,84 +3,84 @@ import Tabs from '~/components/tabs';
 
 const executives = [
   {
-    name: 'Devanshu Deo',
-    post: 'Vice President Boys',
-    photo: '/executives/13.png',
-  },
-  {
-    name: 'Jagreeti Chakraborty',
-    post: 'Vice President Girls',
-    photo: '/executives/14.png',
-  },
-  {
-    name: 'Ashish Kumar Gautam',
-    post: 'Advisory Board',
-    photo: '/executives/15.png',
-  },
-  {
-    name: 'Shreyas Shetty',
-    post: 'Advisory Board',
-    photo: '/executives/16.png',
-  },
-  {
     name: 'Srijan Mallick',
-    post: 'General Secretary Technical',
-    photo: '/executives/4.png',
+    post: 'Vice President Boys',
+    photo: '/executives/1.png',
   },
   {
-    name: 'Varun Srivastava',
-    post: 'General Secretary Alumni',
-    photo: '/executives/8.png',
+    name: 'Srayashe Das',
+    post: 'Vice President Girls',
+    photo: '/executives/2.jpg',
   },
   {
     name: 'Soumyadeep Acharya',
+    post: 'Advisory Board',
+    photo: '/executives/3.jpg',
+  },
+  {
+    name: 'Swapnonil Ghosh',
+    post: 'Advisory Board',
+    photo: '/executives/4.jpg',
+  },
+  {
+    name: 'Chhitij Ranpal Damai',
+    post: 'General Secretary Technical',
+    photo: '/executives/10.jpg',
+  },
+  {
+    name: 'Akmal Hossain',
+    post: 'General Secretary Alumni',
+    photo: '/executives/13.png',
+  },
+  {
+    name: 'Sanuvab Guha',
     post: 'General Secretary Cultural',
-    photo: '/executives/10.png',
+    photo: '/executives/7.webp',
   },
+  // {
+  //   name: 'Ankit Kumar Singh',
+  //   post: 'General Secretary Sports',
+  //   photo: '/executives/1.png',
+  // },
   {
-    name: 'Sanapala Venkata Satya Sai Manikanta',
-    post: 'General Secretary Sports',
-    photo: '/executives/17.png',
-  },
-  {
-    name: 'Debaditya Roy',
+    name: 'Pritish Kumar Singh',
     post: 'Asst. General Secretary Technical',
-    photo: '/executives/5.png',
+    photo: '/executives/11.jpg',
   },
   {
-    name: 'Diya Chaudhary',
+    name: 'Shrabani Singha',
     post: 'Asst. General Secretary Technical',
-    photo: '/executives/6.png',
+    photo: '/executives/12.jpg',
   },
   {
-    name: 'Harish Saharan',
+    name: 'Tamanna Sutradhar',
     post: 'Asst. General Secretary Alumni',
-    photo: '/executives/9.png',
+    photo: '/executives/14.jpg',
   },
   {
-    name: 'Kuldip Chakraborty',
+    name: 'Bishal Debnath',
     post: 'Asst. General Secretary Alumni',
-    photo: '/executives/7.png',
+    photo: '/executives/15.jpg',
   },
   {
-    name: 'Shruba Das',
+    name: 'Subarna Roy',
     post: 'Asst. General Secretary Cultural',
-    photo: '/executives/11.png',
+    photo: '/executives/8.jpg',
   },
   {
-    name: 'Yash Alok',
+    name: 'Siddharth Srivastava',
     post: 'Asst. General Secretary Cultural',
-    photo: '/executives/12.png',
+    photo: '/executives/9.jpg',
   },
   {
-    name: 'Md. Anash Khan',
+    name: 'Nishant Kumar Karn',
     post: 'Asst. General Secretary Sports',
-    photo: '/executives/18.png',
+    photo: '/executives/5.jpg',
   },
   {
-    name: 'Leela Lakshmi Kundi',
+    name: 'Shaik Kothinti Vaseema Anjum',
     post: 'Asst. General Secretary Sports',
-    photo: '/executives/19.png',
+    photo: '/executives/6.jpg',
   },
 ];
 
@@ -141,13 +141,16 @@ export default function AboutGymkhana() {
                 key={index}
                 className='flex h-full flex-col items-center rounded-lg bg-white p-6 text-center shadow-lg transition-transform hover:scale-105'
               >
-                <Image
-                  src={exec.photo}
-                  alt={exec.name}
-                  width={80}
-                  height={80}
-                  className='rounded-full shadow-md'
-                />
+                <div className='h-24 w-24 overflow-hidden rounded-full shadow-md'>
+                  <Image
+                    src={exec.photo}
+                    alt={exec.name}
+                    width={96}
+                    height={96}
+                    className='object-cover'
+                  />
+                </div>
+
                 <p className='mt-3 text-lg font-semibold'>{exec.name}</p>
                 <p className='text-sm text-gray-600'>{exec.post}</p>
               </div>
